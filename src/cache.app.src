@@ -1,0 +1,15 @@
+{application, cache,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {cache_app, []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [cache, cache_store]},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.
